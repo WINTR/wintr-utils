@@ -44,7 +44,7 @@ WintrGradient =
       return { start: @COLORS.yellow, stop: @COLORS.aqua }
 
    pinkAqua: ->
-      return { start: @COLORS.pink, stop: @COLORS.aqua }
+      return { start: @COLORS.pink,   stop: @COLORS.aqua }
 
    yellowOrange: ->
       return { start: @COLORS.yellow, stop: @COLORS.orange }
