@@ -73,8 +73,8 @@ WintrGradient =
       canvas.height = @DEFAULT_SIZE
 
       context = canvas.getContext '2d'
-
       context.rect 0, 0, @DEFAULT_SIZE, @DEFAULT_SIZE
+
       gradient = context.createLinearGradient 0, 0, @DEFAULT_SIZE, @DEFAULT_SIZE
       gradient.addColorStop 0, start
       gradient.addColorStop 1, stop
